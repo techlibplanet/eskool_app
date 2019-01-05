@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Homework extends StatefulWidget{
+class Homework extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return HomeworkState();
   }
 }
 
-class HomeworkState extends State<Homework>{
+class HomeworkState extends State<Homework> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,5 +23,4 @@ class HomeworkState extends State<Homework>{
       child: Text('Home Work'),
     );
   }
-
 }

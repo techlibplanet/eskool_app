@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Worksheets extends StatefulWidget{
+class Worksheets extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return WorksheetState();
   }
 }
 
-class WorksheetState extends State<Worksheets>{
+class WorksheetState extends State<Worksheets> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,5 +23,4 @@ class WorksheetState extends State<Worksheets>{
       child: Text('Worksheets'),
     );
   }
-  
 }

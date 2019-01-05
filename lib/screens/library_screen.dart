@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Library extends StatefulWidget{
+class Library extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return LibraryState();
   }
 }
 
-class LibraryState extends State<Library>{
+class LibraryState extends State<Library> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,5 +23,4 @@ class LibraryState extends State<Library>{
       child: Text('Library'),
     );
   }
-
 }

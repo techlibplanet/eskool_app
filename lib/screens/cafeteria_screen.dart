@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Cafeteria extends StatefulWidget{
+class Cafeteria extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return CafeteriaState();
   }
 }
 
-class CafeteriaState extends State<Cafeteria>{
+class CafeteriaState extends State<Cafeteria> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,5 +23,4 @@ class CafeteriaState extends State<Cafeteria>{
       child: Text('Cafeteria'),
     );
   }
-
 }

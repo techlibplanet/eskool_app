@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class TimeTable extends StatefulWidget{
+class TimeTable extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return TimeTableState();
   }
 }
 
-class TimeTableState extends State<TimeTable>{
+class TimeTableState extends State<TimeTable> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,5 +23,4 @@ class TimeTableState extends State<TimeTable>{
       child: Text('Time Table'),
     );
   }
-
 }

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Circulars extends StatefulWidget{
+class Circulars extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return CircularState();
   }
 }
 
-class CircularState extends State<Circulars>{
+class CircularState extends State<Circulars> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,5 +23,4 @@ class CircularState extends State<Circulars>{
       child: Text('Circulars'),
     );
   }
-
 }
