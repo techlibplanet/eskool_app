@@ -21,6 +21,8 @@ dependencies:
   cupertino_icons: ^0.1.2
   fluttertoast: ^2.2.2
   material_design_icons_flutter: 3.0.3289
+  url_launcher: ^4.0.3
+  flutter_calendar: ^0.0.1
 
 dev_dependencies:
   flutter_test:
@@ -33,7 +35,13 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   assets:
-    - assets/reqelford.png
+    - assets/images/reqelford.png
+    - assets/images/facebook-box.png
+    - assets/images/blogger.png
+    - assets/images/google-play.png
+    - assets/images/twitter-box.png
+    - assets/images/youtube.png
+    - assets/images/gmail.png
 
 
 

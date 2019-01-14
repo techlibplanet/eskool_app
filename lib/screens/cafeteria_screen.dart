@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_calendar/flutter_calendar.dart';
 
 class Cafeteria extends StatefulWidget {
   @override
@@ -19,8 +20,11 @@ class CafeteriaState extends State<Cafeteria> {
   }
 
   getBody() {
-    return Center(
-      child: Text('Cafeteria'),
+    return Container(
+      margin: EdgeInsets.all(8.0),
+      child: Calendar(
+        isExpandable : true
+      ),
     );
   }
 }

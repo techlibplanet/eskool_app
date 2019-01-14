@@ -165,9 +165,13 @@ class DashboardState extends State<Dashboard> {
                 title: Text('Library'),
                 subtitle: Text("Books to be returned to library"),
                 leading: CircleAvatar(
-                  child: Icon(
-                    Icons.local_library,
-                    color: Colors.cyan,
+                  child: Container(
+                    height: 48,
+                    width: 48,
+                    child: Icon(
+                      Icons.local_library,
+                      color: Colors.cyan,
+                    ),
                   ),
                   backgroundColor: Color(thick_brown),
                 ),
@@ -272,7 +276,7 @@ class DashboardState extends State<Dashboard> {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => Calendar()),
+                MaterialPageRoute(builder: (context) => CalendarScreen()),
               );
             },
             child: Center(

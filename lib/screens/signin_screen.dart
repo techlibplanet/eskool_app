@@ -18,7 +18,7 @@ class SignInState extends State<SignIn> {
 
   @override
   Widget build(BuildContext context) {
-    var assetImage = AssetImage('assets/reqelford.png');
+    var assetImage = AssetImage('assets/images/reqelford.png');
     var image = Image(image: assetImage, height: 150.0, width: 150.0);
     TextStyle textStyle = Theme.of(context).textTheme.subhead;
     userModel = UserModel(userNameController.text, passwordController.text);

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_calendar/flutter_calendar.dart';
 
 class Homework extends StatefulWidget {
   @override
@@ -19,8 +20,10 @@ class HomeworkState extends State<Homework> {
   }
 
   getBody() {
-    return Center(
-      child: Text('Home Work'),
+    return Container(
+      child: Calendar(
+        isExpandable: true,
+      ),
     );
   }
 }
